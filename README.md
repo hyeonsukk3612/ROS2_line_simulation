@@ -27,9 +27,13 @@ source install/setup.bash
 
 ***
 
+창1
+
 ros2 run camera sub
 
-ros2 run camera sub_jetson
+창2
+
+ros2 run line_follow video_publisher
 
 ***
 
@@ -39,11 +43,8 @@ ros2 run camera sub_jetson
 
 창1
 
-ros2 run line_follow video_publisher
-
-창2
-
 ros2 run line_follow line_tracer
+
 ***
 
 카메라 실제 구동 영상입니다
